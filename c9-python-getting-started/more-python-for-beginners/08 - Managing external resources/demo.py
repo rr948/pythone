@@ -1,6 +1,6 @@
 try:
 	stream = open('output.txt', 'wt')
-	stream.write('Lorem ipsum dolar')
+	stream.write('Lorem ipsum dolar$$$$')
 finally:
 	stream.close() # THIS IS REALLY IMPORTANT!!
 

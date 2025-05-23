@@ -1,6 +1,6 @@
 # import module as namespace
 import helpers
-helpers.display('Not a warning')
+helpers.display('Not a warning',is_warning=True)
 
 # import all into current namespace
 from helpers import *

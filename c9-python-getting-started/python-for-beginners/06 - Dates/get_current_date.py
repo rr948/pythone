@@ -7,3 +7,5 @@ current_date = datetime.now()
 # You must convert the datetime object to a string
 # before you can concatenate it to another string
 print('Today is: ' + str(current_date))
+print('Today is: ' + str(datetime.now()))
+

@@ -26,7 +26,7 @@ parameters  = {'visualFeatures':'Description,Color',
                'language':'en'}
 
 # Open the image file to get a file object containing the image to analyze
-image_path = "./TestImages/PolarBear.jpg"
+image_path = "C:/Users/manjunath.babu/Downloads/reddit.png"
 image_data = open(image_path, "rb").read()
 
 # According to the documentation for the analyze image function

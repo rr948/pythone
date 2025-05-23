@@ -6,5 +6,5 @@ presenters = [
     {'name': 'Susan', 'age': 50},
     {'name': 'Christopher', 'age': 47}
 ]
-presenters.sort(key=sorter)
+#presenters.sort(key=sorter)
 print(presenters)
